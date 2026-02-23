@@ -67,13 +67,13 @@ Installation
 
 Clone the Repository:
 
-Bash
-<pre>
+**Bash**
+```bash
 git clone https://github.com/yourusername/PodcastSearcherZHTW.git
 cd PodcastSearcherZHTW
 Configure Environment:
 Create a .env file in the root directory:
-</pre>
+```
 
 Code snippet
 <pre>
@@ -84,11 +84,12 @@ COSMOS_CONNECTION_STRING=your_cosmos_link
 
 Deploy & Run:
 
-Bash
-<pre>
-pip install -r podcast_linebot/requirements.txt
-python podcast_linebot/app.py
-</pre>
+**Bash**
+```bash
+git clone [https://github.com/yourusername/PodcastSearcherZHTW.git](https://github.com/yourusername/PodcastSearcherZHTW.git)
+cd PodcastSearcherZHTW
+```
+
 ## 🌻 Roadmap
 
 ### ✅ Phase 1: Core Engine (Completed)
