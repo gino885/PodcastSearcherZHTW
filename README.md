@@ -1,4 +1,3 @@
- Markdown
 # PodcastSearcherZHTW 🎙️
 ### *Precision Search Engine for Traditional Chinese Podcast Content*
 
