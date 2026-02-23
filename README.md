@@ -65,22 +65,24 @@ LINE Developers Account (Messaging API access)
 
 Installation
 
-Clone the Repository:
-
+### 1. Clone the Repository
 **Bash**
 ```bash
-git clone https://github.com/yourusername/PodcastSearcherZHTW.git
+git clone [https://github.com/yourusername/PodcastSearcherZHTW.git](https://github.com/yourusername/PodcastSearcherZHTW.git)
 cd PodcastSearcherZHTW
-Configure Environment:
-Create a .env file in the root directory:
 ```
 
-Code snippet
-<pre>
+### 2. Configure Environment
+
+Create a `.env` file in the root directory and add your credentials. Make sure to use the exact format below to trigger syntax highlighting:
+
+**Environment Configuration (`.env`)**
+
+```env
 LINE_CHANNEL_SECRET=your_secret
 LINE_CHANNEL_ACCESS_TOKEN=your_token
 COSMOS_CONNECTION_STRING=your_cosmos_link
-</pre>
+```
 
 Deploy & Run:
 
