@@ -53,6 +53,7 @@ The project utilizes a decoupled, microservices-oriented architecture designed f
 ├── podcast_downloader/     # Azure Functions for cloud-based scraping
 ├── algorithm_test/         # Accuracy evaluation (Precision/Recall) & NLP tuning
 └── render_test_linebot/    # Webhook testing & UI template prototyping
+```
 🚀 Getting Started
 Prerequisites
 
@@ -67,21 +68,27 @@ Installation
 Clone the Repository:
 
 Bash
+<pre>
 git clone https://github.com/yourusername/PodcastSearcherZHTW.git
 cd PodcastSearcherZHTW
 Configure Environment:
 Create a .env file in the root directory:
+</pre>
 
 Code snippet
+<pre>
 LINE_CHANNEL_SECRET=your_secret
 LINE_CHANNEL_ACCESS_TOKEN=your_token
 COSMOS_CONNECTION_STRING=your_cosmos_link
+</pre>
+
 Deploy & Run:
 
 Bash
+<pre>
 pip install -r podcast_linebot/requirements.txt
 python podcast_linebot/app.py
-
+</pre>
 ## 🌻 Roadmap
 
 ### ✅ Phase 1: Core Engine (Completed)
